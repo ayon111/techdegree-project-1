@@ -41,6 +41,7 @@ def start_game():
                     start_game()
                     break
                 elif (again.lower() == "n"):
+                    print("Thank you for playing the game.Good Bye")
                     sys.exit()
                 else:
                     print("You must enter 'y' or 'n' to inform about your decision")
